@@ -97,20 +97,25 @@ p{
   text-decoration:none;
 }
 
-.button {
-  background-color: #8290A3;
-  border: none;
+#g7 {
+  font-family:Poppins;
+  text-align:left;
   color: 0C2D57;
-  padding: 8px 28px;
-  border-radius:29px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 2px 2px;
-  cursor: pointer;
+  margin-left:20px;
+  background: transparent;
+  border-radius: 85px;
+  height: 4px;
+  width: 290px;
+  box-shadow: 0 30px 0 0 #8290A3;
 }
-
 body{
   background-color: #EFECEC;
+}
+
+#mail{
+  color: 0C2D57;
+}
+#link{
+  color: 0C2D57;
+
 }
