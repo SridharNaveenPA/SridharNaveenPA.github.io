@@ -15,6 +15,7 @@ h3{
 }
 
 a{text-decoration:none;}
+a:hover{color: red}
 
 g3{
   text-decoration:none;
@@ -117,6 +118,23 @@ body{
 }
 #link{
   color: 0C2D57;
-
 }
 
+#mail:hover{
+  font-weight: 500;
+  transition: 0.4s;
+}
+#link:hover{
+  font-weight: 500;
+  transition: 0.8s;
+}
+
+.hov:hover{
+  font-weight: 500;
+  transition: 0.4s;
+}
+
+.hov1:hover{
+  font-weight: 500;
+  transition: 0.4s;
+}
