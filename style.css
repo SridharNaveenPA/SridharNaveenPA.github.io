@@ -138,3 +138,14 @@ body{
   font-weight: 500;
   transition: 0.4s;
 }
+#g7 {
+  font-family:Poppins;
+  text-align:left;
+  color: 0C2D57;
+  margin-left:20px;
+  background: transparent;
+  border-radius: 85px;
+  height: 4px;
+  width: 390px;
+  box-shadow: 0 30px 0 0 #8290A3;
+}
