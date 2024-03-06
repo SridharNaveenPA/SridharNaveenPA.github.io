@@ -1,0 +1,77 @@
+h1{
+  font-family:Poppins;
+  text-align:center;
+  color: 0C2D57;
+  margin-top: 20px;
+}
+hr{
+  opacity:20%;
+  color:#8290A3;
+  border: 2px solid #8290A3;
+  border-radius:50px;
+  width: 90%;
+}
+body{
+  background-color: #EFECEC;
+}
+
+h2{
+  font-family:Poppins;
+  text-align:left;
+  color: 0C2D57;
+  margin-left:20px;
+}
+
+
+.mail{
+  font-family:Poppins;
+  text-align:left;
+  color: 0C2D57;
+  margin-left:20px;
+}
+
+label{
+  font-family:Poppins;
+  text-align:left;
+  color: 0C2D57;
+  margin-left:9px;
+}
+
+#submit{
+  font-family:Poppins;
+  text-align:left;
+  color: 0C2D57;
+  margin-left:9px;
+}
+
+input{
+  font-family:Poppins;
+  text-align:left;
+  color: 0C2D57;
+  margin-left:9px;
+  border-radius: 7px;
+}
+
+form{
+  margin-left: 100px;
+}
+
+input[type=submit]{
+  background-color:  #0C2D57;
+  border: none;
+  color: #EFECEC;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+
+input[type=submit]{
+  background-color:  #0C2D57;
+  border: none;
+  color: #EFECEC;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 2px 1px;
+  cursor: pointer;
+}
