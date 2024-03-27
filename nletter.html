@@ -13,14 +13,14 @@
 <h1>News Letter !</h1>
 <hr>
 
-<form action="#" name="email">
+<form>
 	<h2>Send Emails</h2>
 	<input type="radio" name="yr" id="yr1">
-	<label for="yr1">Weekly Twice</label>
+	<label for="yr1">Weekly Twice</label><br>
 	<input type="radio" name="yr" id="yr1">
-	<label for="yr2">Weekly Once</label>
+	<label for="yr2">Weekly Once</label><br>
 	<input type="radio" name="yr" id="yr1">
-	<label for="yr3">Monthly Once</label>
+	<label for="yr3">Monthly Once</label><br>
 	<input type="radio" name="yr" id="yr1">
 	<label for="yr4">Monthly Twice</label>
 
@@ -29,17 +29,16 @@
 
  <h2>Recommend Mails</h2>
  <input type="checkbox" id="box1">
- <label for="box1">New Post Remainder</label><br>
- <input type="checkbox" id="box2"><br>
- <label for="box2">Photography Tips!</label><br>
- <input type="checkbox" id="box3"><br>
+ <label for="box1">New Post Remainder<br></label>
+ <input type="checkbox" id="box2">
+  <label for="box2">Photography Tips!</label><br>
+ <input type="checkbox" id="box3">
  <label for="box3">New Presets</label>
  
  <h2>Feedback</h2>
  <textarea id="area" name="txtarea" rows="4" cols="50">Write your comments here!</textarea>
 
-	<input type="submit" name="submit" id="submit" onclick="ValidateEmail(document.email.name)">
-	<script src="email.js"></script>
+	<input type="submit" name="submit" id="submit">
 
 
 </form>
