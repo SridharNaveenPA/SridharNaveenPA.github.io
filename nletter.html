@@ -13,6 +13,7 @@
 <h1>News Letter !</h1>
 <hr>
 
+	<script src="email.js"></script>
 <form>
 	<h2>Send Emails</h2>
 	<input type="radio" name="yr" id="yr1">
@@ -38,7 +39,7 @@
  <h2>Feedback</h2>
  <textarea id="area" name="txtarea" rows="4" cols="50">Write your comments here!</textarea>
 
-	<input type="submit" name="submit" id="submit">
+	<input type="submit" name="submit" id="submit" onclick=ValidateEmail(nme)>
 
 
 </form>
