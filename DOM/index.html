@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>DOM</title>
+    </head>
+    <script>
+        function change(eltd){
+                var elt = window.document.getElementById(eltd);
+                elt.style.color= "003049";
+                elt.style.fontFamily= "Poppins";
+                elt.innerHTML="Madras Institute of Technology (MIT) is also among the institutes in India that offer postgraduate courses in Avionics and Mechatronics. The institute has a unique practice of Tnumbers that facilitates mentoring of students by their respective seniors.";
+        }
+
+        function change2(){
+                var elt = window.document.getElementsByTagName('p');
+                elt.style.color= "003049";
+        }
+
+        const element = document.getElementById("myBtn");
+element.addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+    </script>
+    <style>
+        p{
+            font-size: 30px;
+        }
+    </style>
+    <body>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <p id="p1"  onmouseover="change('p1')">Madras Institute of Technology (MIT) is an engineering institute located in Chromepet, Chennai, India. It is one of the four autonomous constituent colleges of Anna University. It was established in 1949 by Chinnaswami Rajam as the first self-financing engineering institute in the country and later merged with Anna University. The institute was among the first educational institutions in India to offer new areas of specialization, such as aeronautical engineering, automobile engineering, electronics engineering and instrumentation technology. Madras Institute of Technology (MIT) was the first self-financing institute opened in India..</p>
+        <p> Established in 1949, Madras Institute of Technology (MIT) initially offered three-year diploma courses (DMIT) in Engineering for Science graduates (B.Sc.). After Anna University was established in 1978, Madras Institute of Technology (MIT) became one of the constituent institutions of the university. After this merging, three-year B.Tech. Degree courses were offered to B.Sc. graduates. Over the years, the institute has expanded its original programmes. Presently, it provides undergraduate and postgraduate courses in Production Engineering, Rubber and Plastics Technology, Computer Science Engineering and Information Technology. Since 1996, the institute has accepted students who have passed the 12th board examinations for its four-year undergraduate programme.</p>
+        <button onclick="change2()">Click To Change BG Color</button>
+        
+       
+        <button id="myBtn">Try addEventListnener</button>
+        <p id="demo"></p>
+    </body>
+</html>
