@@ -899,3 +899,98 @@ a.idk{
         text-decoration: none;
     }
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    height: auto;
+    padding: 1em;
+  }
+
+  /* Make all rows and columns stack vertically */
+  .row1, .row2, .row3,
+  .col-left, .col-right,
+  .achievements-certifications,
+  .contact-content {
+    flex-direction: column;
+  }
+
+  /* Remove fixed heights and set to auto */
+  .row1, .row2, .row3 {
+    flex: auto;
+    height: auto;
+    gap: 1em;
+  }
+
+  /* Make all columns full width */
+  .col-left, .col-right,
+  .col1, .col2,
+  .achievements-box, .certifications-box,
+  .contact-details, .contact-form {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+
+  /* Adjust specific bento boxes */
+  .bento-box {
+    margin-bottom: 1em;
+  }
+
+  /* Adjust text sizes for mobile */
+  .name {
+    font-size: 32px;
+  }
+  .name2, .name3 {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* Adjust the download section */
+  .dawn {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .resume-button {
+    margin-top: 0;
+  }
+
+  /* Adjust skills section */
+  .skills-flex {
+    gap: 20px;
+  }
+  .skill {
+    width: 80px;
+  }
+
+  /* Adjust contact section */
+  .contact-content {
+    gap: 2rem;
+    flex-direction: column;
+  }
+  .contact-details {
+    font-size: 16px;
+  }
+}
+
+/* Smooth scrolling for mobile */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent horizontal overflow */
+body {
+  overflow-x: hidden;
+}
+
+/* Make buttons more touch-friendly */
+.resume-button, .github-btn, .contact-form button {
+  min-height: 48px; /* Recommended minimum touch target size */
+}
+
+/* Adjust form elements for mobile */
+.contact-form input,
+.contact-form textarea {
+  font-size: 16px; /* Prevent iOS zoom on focus */
+}
