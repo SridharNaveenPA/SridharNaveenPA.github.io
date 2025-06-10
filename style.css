@@ -134,7 +134,7 @@ body {
 
 .container .row2 .col2 {
     flex: 1;
-
+    
     border-radius: 2em;
 }
 
@@ -243,7 +243,7 @@ body {
 }
 
 .container>.row2 .col2 {
-    background-color: #4361ee;
+    background-color: #fbd89e;
     /* Bright Blue */
 }
 
@@ -567,7 +567,7 @@ a:hover .leetcode-icon {
 
 .skills-section h2 {
   font-size: 2.2em;
-  color: #00ffff;
+  color: #9f792e;
   margin-bottom: 40px;
   display: inline-block;
   padding-bottom: 5px;
@@ -575,7 +575,7 @@ a:hover .leetcode-icon {
 }
 
 .skills-category h3 {
-  color: #00d1ff;
+  
   margin-bottom: 15px;
   font-family: 'DM Sans', sans-serif;
   font-size: 1.3em;
@@ -602,7 +602,7 @@ a:hover .leetcode-icon {
   align-items: center;
   width: 100px;
   font-family: 'DM Sans', sans-serif;
-  color: #e0e0e0;
+  color: #070707;
 }
 
 .skill img, .skill i {
@@ -781,6 +781,18 @@ background-color: #ffffff;
     font-weight: 600;
 }
 
+.of-skill{
+    background-color: #b64242;
+    /* same yellow badge */
+    
+   
+    padding: 0.3rem 1rem;
+    border-radius: 2em;
+    font-family: 'DM Sans', sans-serif;
+    
+    font-weight: 600;
+}
+
 .contact-box {
   background-color: #fef6ee;
   padding: 2rem;
@@ -798,27 +810,27 @@ background-color: #ffffff;
 .contact-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #7b2cbf;
+  color: #000000;
   text-align: center;
 }
 
 .contact-content {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 5rem;
   justify-content: space-between;
 }
 
 .contact-details {
-  flex: 1;
-  font-size: 30px;
+  flex: 0.5;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
 .contact-details a {
-  color: #118ab2;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -840,7 +852,7 @@ background-color: #ffffff;
 }
 
 .contact-form button {
-  background-color: #4CAF50;
+  background-color: #7651dc;
   color: white;
   padding: 0.8rem 1.5rem;
   border: none;
@@ -851,5 +863,5 @@ background-color: #ffffff;
 }
 
 .contact-form button:hover {
-  background-color: #388e3c;
+  background-color: #947cdc;
 }
