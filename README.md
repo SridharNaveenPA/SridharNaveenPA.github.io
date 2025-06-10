@@ -4,7 +4,7 @@ This is my Professional Portfolio website showcasing my projects, skills, achiev
 Built using **HTML** and **CSS**, it is fully responsive and hosted on **GitHub Pages**.
 
 ## 🔗 Live Demo
-Check out the live version here: [](https://sridharnaveenpa.github.io/)
+Check out the live version here: [https://sridharnaveenpa.github.io/](https://sridharnaveenpa.github.io/)
 
 ## 🛠️ Technologies Used
 - HTML
