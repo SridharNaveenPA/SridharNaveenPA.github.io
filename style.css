@@ -176,7 +176,7 @@ body {
 }
 
 .row1>.col-left .row2 {
-    background-color: #4cc9f0;
+    background-color: #ffcc69;
     /* Cyan */
 }
 
@@ -219,12 +219,13 @@ body {
 }
 
 .row1>.col-right .row2 .col1 {
-    background-color: #06d6a0;
+    background-color: #faeee2;
     /* Mint Green */
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    gap: -6em;
     /* Vertical center */
     align-items: center;
     /* Horizontal center */
@@ -232,7 +233,7 @@ body {
 }
 
 .row1>.col-right .row2 .col2 {
-    background-color: #118ab2;
+    background-color: #ffcc69;
     /* Teal */
 }
 
@@ -265,6 +266,18 @@ body {
     margin-left: 50px;
     margin-right: 50px;
 }
+
+.name24 {
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
 
 .name3 {
     font-family: 'DM Sans', sans-serif;
@@ -377,6 +390,37 @@ a:hover .leetcode-icon {
     color: #000;
     /* text color */
     width: 100%;
+    list-style-position: inside; /* so dot is part of the list item */
+    
+}
+
+.education-list li.active-edu {
+  list-style-type: disc;
+  color: rgb(0, 0, 0); /* text color */
+  position: relative;
+}
+.education-list li.active-edu::marker {
+  color: green;
+  transform: scale(1);
+  animation: glow 1.5s infinite ease-in-out;
+}   
+
+@keyframes glow {
+  0%, 100% {
+    color: green;
+    opacity: 1;
+    transform: scale(1.5);
+  }
+  50% {
+    color: lime;
+    opacity: 0.4;
+    transform: scale(1);
+  }
+}
+
+.edu-hr{
+    opacity: 0.5;
+    color: #7c57e5;
 }
 
 .resume-button {
@@ -391,6 +435,7 @@ a:hover .leetcode-icon {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    margin-top: 20px;
     transition: background-color 0.3s ease;
     text-decoration: none;
 }
@@ -404,17 +449,18 @@ a:hover .leetcode-icon {
 }
 
 .download{
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     font-size: 40px;
+    margin-top: 0px;
 }
 
 .titl-projects{
-    background-color: #ffd166;
+    background-color: #7651dc;
     /* same yellow badge */
     color: #7b2cbf;
     /* purple text */
     padding: 0.3rem 1rem;
-    border-radius: 2em;
+    border-radius: 1em;
     font-family: 'DM Sans', sans-serif;
     color: white;
     font-weight: 600;
@@ -461,7 +507,8 @@ a:hover .leetcode-icon {
     }
 
     .github-btn:hover {
-      background-color: #000;
+      background-color: #ffffff;
+      color: black;
     }
 
     .github-btn i {
