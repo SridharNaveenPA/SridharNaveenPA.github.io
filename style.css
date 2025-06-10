@@ -214,7 +214,7 @@ body {
 }
 
 .row1>.col-right .row1 .col2 {
-    background-color: #ffb703;
+    background-color: #7651dc;
     /* Orange */
 }
 
@@ -233,7 +233,7 @@ body {
 }
 
 .row1>.col-right .row2 .col2 {
-    background-color: #ffcc69;
+    background-color: #7651dc;
     /* Teal */
 }
 
@@ -248,7 +248,7 @@ body {
 }
 
 .container>.row3 {
-    background-color: #b5179e;
+    background-color: #ffffff;
     /* Pinkish Purple */
 }
 
@@ -274,7 +274,8 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 0px;
-    margin-top: 0px;
+    margin-top: 60px;
+    padding: 0px;
 }
 
 
@@ -426,7 +427,7 @@ a:hover .leetcode-icon {
 .resume-button {
     display: inline-flex;
     align-items: center;
-    background-color: #4CAF50;
+    background-color: #7c57e5;
     color: white;
     padding: 12px 20px;
     font-family: 'DM Sans', sans-serif;
@@ -435,13 +436,14 @@ a:hover .leetcode-icon {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: -120px;
+
     transition: background-color 0.3s ease;
     text-decoration: none;
 }
 
 .resume-button:hover {
-    background-color: #388e3c;
+    background-color: #9778ea;
 }
 
 .resume-button i {
@@ -531,14 +533,13 @@ a:hover .leetcode-icon {
 }
 
 .bento-box.extras .tit {
-    background-color: #ffd166;
+    background-color: #ffffff;
     /* same yellow badge */
-    color: #7b2cbf;
+    color: #7651dc;
     /* purple text */
     padding: 0.3rem 1rem;
     border-radius: 2em;
     font-family: 'DM Sans', sans-serif;
-    color: white;
     font-weight: 600;
 }
 
@@ -551,7 +552,7 @@ a:hover .leetcode-icon {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    color: #000;
+    color: #ffffff;
     /* text color */
     width: 100%;
 }
@@ -617,7 +618,7 @@ a:hover .leetcode-icon {
 
 
 .bento-box.cert {
-    background-color: #fef6ee;
+    background-color: #7651dc;
     /* same light peach */
     padding: 1.5rem;
     border-radius: 2em;
@@ -687,9 +688,23 @@ a:hover .leetcode-icon {
     color: white;
 }
 
-.achievements-box,
+.achievements-box {
+     background-color: #dcd1fc;
+    /* same light peach */
+    padding: 1.5rem;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    flex: 1;
+    align-items: center;
+    gap: 1rem;
+}
+
+
 .certifications-box {
-     background-color: #e88725;
+     background-color: #7651dc;
     /* same light peach */
     padding: 1.5rem;
     border-radius: 2em;
@@ -704,14 +719,14 @@ a:hover .leetcode-icon {
 
 
 .of-cert{
-    background-color: #ffd166;
+    background-color: #7651dc;
     /* same yellow badge */
-    color: #7b2cbf;
+    color: #7651dc;
     /* purple text */
     padding: 0.3rem 1rem;
     border-radius: 2em;
     font-family: 'DM Sans', sans-serif;
-    color: white;
+    color: 7651dc;
     font-weight: 600;
 }
 
@@ -729,7 +744,7 @@ a:hover .leetcode-icon {
     width: 100%;
 }
 .of-achiv{
-background-color: #ffd166;
+background-color: #a25cdf;
     /* same yellow badge */
     color: #7b2cbf;
     /* purple text */
@@ -750,19 +765,19 @@ background-color: #ffd166;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;    
-    color: #000000;
+    color: #ffffff;
     /* text color */
     width: 100%;
 }
 .of-cert{
-background-color: #0cc3e3;
+background-color: #ffffff;
     /* same yellow badge */
-    color: #7b2cbf;
+    color: #7651dc;
     /* purple text */
     padding: 0.3rem 1rem;
     border-radius: 2em;
     font-family: 'DM Sans', sans-serif;
-    color: white;
+    color: 7b2cbf;
     font-weight: 600;
 }
 
@@ -782,7 +797,7 @@ background-color: #0cc3e3;
 
 .contact-title {
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 700;
   color: #7b2cbf;
   text-align: center;
 }
